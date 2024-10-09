@@ -2,4 +2,4 @@
 sidebar_position: 2
 ---
 
-# Secure Enclave
+# TEE + ZK
