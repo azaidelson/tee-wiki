@@ -2,7 +2,7 @@
   "label": "Types of TEEs",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "TODO: Description"
+    "type": "doc",
+    "id": "tee-types/overview"
   }
 }
