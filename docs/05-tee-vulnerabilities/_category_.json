@@ -1,0 +1,8 @@
+{
+  "label": "TEE vulnerabilities",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Intel SGX has been a frequent target of academic and practical attacks, here are some examples of vulnerabilities that were identified:"
+  }
+}

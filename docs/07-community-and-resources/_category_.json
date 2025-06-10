@@ -1,8 +1,8 @@
 {
-    "label": "Community and Resources",
-    "position": 7,
-    "link": {
-      "type": "generated-index",
-      "description": "TODO: Description"
-    }
+  "label": "Community and resources",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "community-and-resources/overview"
   }
+}
