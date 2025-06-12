@@ -1,6 +1,6 @@
 ---
-title: Examples of Previous Hacks
-sidebar_label: Previous Hacks
+title: Examples of previous hacks
+sidebar_label: Previous hacks
 ---
 
 # Examples of previous hacks
