@@ -1,9 +1,9 @@
 ---
-title: Software Attacks
-sidebar_label: Software Attacks
+title: Software attacks
+sidebar_label: Software attacks
 ---
 
-# Software Attacks
+# Software attacks
 
 Bugs in enclave firmware or runtime environments can open the door to powerful attacks, even without touching the hardware.
 
