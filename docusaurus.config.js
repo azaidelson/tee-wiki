@@ -65,7 +65,7 @@ const config = {
         title: 'TEE Wiki',
         logo: {
           alt: 'TEE Wiki Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-1.png',
         },
         items: [
           {
