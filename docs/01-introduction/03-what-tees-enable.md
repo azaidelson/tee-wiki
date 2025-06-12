@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# What TEEs Enable
+# What TEEs enable
 
 TEEs open new possibilities for secure computation in various fields, especially when handling confidential data and when trust in computational integrity is essential.
 
