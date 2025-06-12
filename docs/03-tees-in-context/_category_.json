@@ -3,5 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index"
+    "description": "A technical map of TEEs in relation to verifiable computation and other cryptographic primitives:"
   }
 }
