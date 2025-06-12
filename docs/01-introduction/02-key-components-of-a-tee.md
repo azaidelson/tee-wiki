@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Key Components of a TEE
+# Key components of a TEE
 
 - **Memory isolation**: Data and applications running inside the enclave cannot be accessed or modified by external software or hardware components, including the host OS or hypervisor. Isolation is primarily enforced through memory encryption, protecting enclave memory from unauthorized access and tampering. This enables TEEs to secure operations even within otherwise untrusted systems, such as a cloud server, where potentially multiple tenants share resources.
 
