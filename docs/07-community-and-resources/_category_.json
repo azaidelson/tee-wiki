@@ -2,7 +2,6 @@
   "label": "Community and resources",
   "position": 7,
   "link": {
-    "type": "doc",
-    "id": "community-and-resources/overview"
+    "type": "generated-index"
   }
 }
