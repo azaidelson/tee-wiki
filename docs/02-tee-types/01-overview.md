@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Types of TEEs
 
+An overview of the different types of TEEs available today:
+
 | Type                          | Examples                                                  | Mechanism                                                                                                | Advantages                                                                          | Disadvantages                                                                                 | Notes                                                                                             |
 |-------------------------------|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | Process-Based Isolation       | Intel SGX                                                 | Isolated memory region within a single process (enclave); system call boundaries enforce separation        | Small TCB; simple attestation; clear separation of trusted/untrusted logic          | Hard to develop; needs code rewrites; poor support for legacy apps                            | First widely-used commercial TEE; foundational model for enclave-based security                   |
@@ -12,4 +14,4 @@ sidebar_position: 1
 | Design Your Own TEE           | ARM TrustZone, BYOTEE (Software + Hardware Co-design)     | Developers build TEEs using hardware toolkits, implementing their own OS, attestation, and trust logic   | Full control over TEE architecture; supports trusted I/O paths (e.g., camera, keyboard) | Extremely complex to implement; requires custom OS, provisioning, and attestation design      | Best suited for embedded/mobile systems or privacy-critical interfaces                            |
 | Software + Physical Isolation | SpaceTEE/SpaceCoin, Microsoft Project Natick (Hypothetical) | No hardware isolation; physical inaccessibility enforced, combined with software-only control and trust  | Works on any hardware; physically tamper-resistant by isolation; zero cryptographic hardware requirements | Relies entirely on no physical access; unverifiable; not suited for hostile environments    | Conceptual TEE model; good for compliance-driven or closed-system deployment                    |
 
-Reference: [Old TEE Tales A not so in depth exploration of TEE platforms and its designs](https://www.youtube.com/watch?v=-uTmlsBg3oY)
+Reference: [Old TEE Tales A not so in depth exploration of TEE platforms and its designs](https://www.youtube.com/watch?v=-uTmlsBg3oY) — by Zheng Leong Chua
