@@ -1,9 +1,9 @@
 ---
-title: Hardware Attacks
-sidebar_label: Hardware Attacks
+title: Hardware attacks
+sidebar_label: Hardware attacks
 ---
 
-# Hardware Attacks
+# Hardware attacks
 
 These target the physical components of the chip, often requiring specialized equipment and physical access.
 
