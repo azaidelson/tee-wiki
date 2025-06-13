@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'TEE Wiki',
   tagline: 'The TEE Knowledge Source',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-1.png',
 
   // Set the production url of your site here
   url: 'https://agreeable-hill-064621300.5.azurestaticapps.net/',
