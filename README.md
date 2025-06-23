@@ -4,9 +4,11 @@ This is a public resource for learning about Trusted Execution Environments (TEE
 
 Whether you're a researcher or developer, this wiki is designed to help you better understand the security guarantees and technical challenges behind TEEs.
 
-We invite everyone interested in TEEs to contribute, improve, and expand this resource by submitting a pull request.
+We invite everyone interested in TEEs to contribute, improve, and expand this resource by submitting a __Pull Request__.
 
 Together, let's build a trusted and verifiable ecosystem.
+
+### 
 
 ### Installation
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
