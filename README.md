@@ -2,11 +2,9 @@
 
 This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.
 
-Whether you're a researcher or developer, this wiki is designed to help you better understand the security guarantees and technical challenges behind TEEs.
+Have an interest in TEEs and looking to contribute to the wiki?
 
-We invite everyone interested in TEEs to contribute, improve, and expand this resource by submitting a __Pull Request__.
-
-Together, let's build a trusted and verifiable ecosystem.
+We invite anyone to submit a __Pull Request__. Requests will be reviewed manually before being accepted.
 
 ### 
 
