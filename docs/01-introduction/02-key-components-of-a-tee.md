@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
 ---
 
 # Key components of a TEE
