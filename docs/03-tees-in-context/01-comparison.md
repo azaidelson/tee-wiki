@@ -1,5 +1,6 @@
 ---
 title: TEEs and Other Cryptographic Primitives
+description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
 sidebar_label: TEEs and other cryptographic primitives
 ---
 
