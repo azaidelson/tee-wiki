@@ -12,3 +12,5 @@ description: 'This is a public resource for learning about Trusted Execution Env
 * **Building with [DStack SDK](https://github.com/Dstack-TEE/dstack)**: The DStack SDK simplifies the steps for developers to deploy programs to a confidential VM and enables verification if an application runs inside a TEE
 
 * **Building with [Automata SGX SDK](https://github.com/automata-network/automata-sgx-sdk)**: The Automata SGX SDK is a Rust-based toolkit that simplifies SGX application development by integrating with Rust’s Cargo build system and enabling developers to design custom enclave interfaces and manage enclave memory precisely. The SDK implements the [Automata DCAP Attestation](https://github.com/automata-network/automata-dcap-attestation) workflow for verification of quotes onchain.
+
+* **Building with [ROFL](https://docs.oasis.io/build/rofl/quickstart)**: Run containerized apps in confidential VMs with out of the box support for decentralized policy management, key management, execution transparency and reproducible builds. Easily deploy apps on a decentralized cloud of TEE compute providers.
