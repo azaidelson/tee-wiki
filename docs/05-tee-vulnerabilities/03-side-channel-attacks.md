@@ -1,11 +1,21 @@
 ---
 title: Side-channel attacks
+description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
 sidebar_label: Side-channel attacks
 ---
 
 # Side-channel attacks
 
 These attacks don’t break the enclave directly, they infer secrets by watching its behavior, such as timing differences or physical emissions.
+
+### [SGX‑Step (Interrupt‑driven single‑stepping attack)](https://github.com/jovanbulck/sgx-step)
+SGX‑Step is an open‑source framework that lets an untrusted OS raise high‑frequency APIC timer interrupts, effectively single‑stepping an enclave one instruction at a time, debugger-like. By precisely measuring where each **Asynchronous Enclave Exit (AEX)** occurs, an attacker can: reconstruct fine‑grained control‑flow, defeat in‑enclave ASLR, mount data‑oriented or branch‑shadowing attacks that extract secrets such as key‑dependent branches and memory indices.
+
+**Mitigation:**  
+* Detect or rate‑limit frequent AEX events inside the enclave and abort if a threshold is exceeded.
+* Adopt constant‑time, data‑oblivious code paths so that observing instruction‑level control‑flow leaks no secret‑dependent behaviour.
+* Long‑term: hardware extensions such as **AEX‑Notify** let trusted enclave code run immediately after every interrupt, blocking precise single‑stepping in commodity CPUs.
+
 
 ### [CacheZoom (Timing-based attack)](https://eprint.iacr.org/2017/618.pdf)
 By carefully measuring how long certain memory operations took, attackers reconstructed secret access patterns in SGX.

@@ -1,11 +1,17 @@
 ---
 title: Hardware attacks
+description: 'This is a public resource for learning about Trusted Execution Environments (TEEs). Our aim is to provide comprehensive coverage of key concepts, research advancements, and real-world applications of TEEs.'
 sidebar_label: Hardware attacks
 ---
 
 # Hardware attacks
 
 These target the physical components of the chip, often requiring specialized equipment and physical access.
+
+### [ÆPIC Leak (CVE-2022-21233)](https://aepicleak.com/)
+The CPU's Advanced Programmable Interrupt Controller could expose stale data directly to untrusted software, letting attackers read secrets from SGX enclaves.
+
+**Mitigation:** Intel microcode and SDK patches flush the APIC state.
 
 ### [VoltPillager (Voltage fault injection)](https://www.usenix.org/system/files/sec21summer_chen-zitai.pdf)
 Attackers rapidly altered the power supply to SGX CPUs to bypass memory protections and read secrets from enclaves.
